@@ -1,0 +1,92 @@
+#sendMessage{
+    width: 20vw;
+    height: 15vh;
+    border: 1px solid rgb(0, 153, 255);
+    box-shadow: 2px 2px 2px 1px rgb(186, 185, 185);
+    margin: 2rem;
+    border-radius: .5rem;
+}
+
+.sendMessage__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sendMessage__header{
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid rgb(0, 153, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+}
+
+.sendMessage__header .left{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sendMessage__header .right{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sendMessage__header .right span{
+    padding: 1px 4px;
+    border: .5px solid grey;
+    font-size: .7rem;
+    border-radius: 50%;
+}
+
+
+.sendMessage__header .left .dot{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 50%;
+}
+
+.sendMessage__header .left h4{
+    color: rgb(0, 153, 255);
+    font-size: .7rem;
+}
+
+.sendMessage__container .sendMessage__content{
+    width: 100%;
+    height: 50%;
+    padding: .5rem 1rem;
+    font-size: .7rem;
+    color: grey;
+}
+
+.sendMessage__container .sendMessage__footer{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid rgb(213, 213, 213);
+}
+
+.sendMessage__container .sendMessage__footer .left,
+.sendMessage__container .sendMessage__footer .right{
+    width: 50%;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.sendMessage__container .sendMessage__footer .right{
+    border-left: 1px solid rgb(213, 213, 213);
+}
